@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:backgroundTint="@color/material_dynamic_primary40"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -23,6 +24,8 @@
         android:id="@+id/imageView"
         android:layout_width="355dp"
         android:layout_height="587dp"
+        android:background="@drawable/pngtree_dark_abstract_geometric_stories_lines_triangle_background_landing_vertical_app_decorative_image_726430"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -55,7 +58,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="playertap"
-                android:tag="0" />
+                android:tag="0"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:contentDescription="TODO" />
 
             <ImageView
                 android:id="@+id/imageView1"
@@ -63,7 +68,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="playertap"
-                android:tag="1" />
+                android:tag="1"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:contentDescription="TODO" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -71,7 +78,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="playertap"
-                android:tag="2" />
+                android:tag="2"
+                tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -86,7 +94,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="playertap"
-                android:tag="3" />
+                android:tag="3"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -94,7 +103,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="playertap"
-                android:tag="4" />
+                android:tag="4"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -102,7 +112,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="playertap"
-                android:tag="5" />
+                android:tag="5"
+                tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -117,7 +128,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="playertap"
-                android:tag="6" />
+                android:tag="6"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -125,7 +137,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="playertap"
-                android:tag="7" />
+                android:tag="7"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -133,7 +146,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="playertap"
-                android:tag="8" />
+                android:tag="8"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:contentDescription="TODO" />
         </LinearLayout>
 
     </LinearLayout>
@@ -143,7 +158,7 @@
         android:layout_width="321dp"
         android:layout_height="58dp"
         android:fontFamily="cursive"
-        android:text="Prince says X`s Turn-Tap "
+        android:text="@string/bottom"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
