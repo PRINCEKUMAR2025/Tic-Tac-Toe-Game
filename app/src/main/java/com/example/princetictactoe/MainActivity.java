@@ -35,12 +35,12 @@ public class MainActivity extends AppCompatActivity {
                 img.setImageResource(R.drawable.x);
                 activePlayer = 1;
                 TextView status = findViewById(R.id.status);
-                status.setText("Hey! its O`s Turn-Tap");
+                status.setText("Hey ! its O`s Turn-Tap\uD83C\uDFAE");
             } else {
                 img.setImageResource(R.drawable.o);
                 activePlayer = 0;
                 TextView status = findViewById(R.id.status);
-                status.setText("Hey! its X`s Turn-Tap");
+                status.setText("Hey ! its X`s Turn-Tap\uD83C\uDFAE");
             }
 
             img.animate().translationYBy(1000f).setDuration(300);
